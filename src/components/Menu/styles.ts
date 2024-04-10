@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 interface INavbarContainer {
-    extendNavbar: boolean;
+  extendNavbar: boolean;
 }
 
 export const NavbarContainer = styled.nav<INavbarContainer>`

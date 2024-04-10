@@ -1,18 +1,21 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
+  :root {
+    --background: #F6432E;
+    --red: #e52e4d;
+    --blue: #0B5ED7;
+    --green: #03bb85;
 
-:root { 
-  --background: #F6432E;
-  --red: #e52e4d;
-  --blue: #0B5ED7;
-  --green: #03bb85;
-  --blue-light: #6933ff;
-  --text-title: #363f5f;
-  --text-body: #363f5f;
-  --white: #fff;
-  --black: #212529;
-}
+    --blue-light: #6933ff;
+
+    --text-title: #363f5f;
+    --text-body: #363f5f;
+
+    --white: #fff;
+    --black: #212529;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -44,4 +47,4 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.6;
     cursor: not-allowed;
   }
-`;
+`
